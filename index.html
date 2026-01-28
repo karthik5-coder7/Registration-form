@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Course Registration Form</h1>
+    
+    <fieldset>
+      <legend>Personal details</legend>
+    <form action="">
+      <table>
+        
+        <tr>
+          <td><label for="fname">First Name</label></td>
+          <td><input
+          name="fname"
+          id="fname"
+          type="text"
+          placeholder="Ex:Karthik"
+        /></td>
+        </tr>
+        <tr>
+          <td><label for="surname">Surname</label></td>
+          <td><input name="" id="fname" type="fname" placeholder="Ex:Surname" /></td>
+        </tr>
+        <tr>
+          <td><label for="mobnum">Mobile number</label></td>
+          <td><input type="tel" name="mobnum" id="mobnum" /></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email</label></td>
+          <td> <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="username@gmail.com"
+        /></td>
+        </tr>
+        <tr>
+          <td><label for="password">Password</label></td>
+          <td><input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="min 8 character"
+        /></td>
+        </tr>
+        <tr>
+          <td> <label for="cpassword">Conform Password</label></td>
+          <td><input
+          type="password"
+          name="cpassword"
+          id="cpassword"
+          placeholder="min 8 character"
+        /></td>
+        </tr>
+        <tr>
+          <td><label for="dob">DOB</label></td>
+          <td><input type="date" name="dob" id="dob" /></td>
+        </tr>
+        <tr>
+          <td> <label for="age">Age</label></td>
+          <td><input type="number" name="age" id="age" min="18" max="65" /></td>
+        </tr>
+        <tr>
+          <td><label for="gender">Gender</label></td>
+          <td><input type="radio" name="gender" value="Male" /><label>Male</label>
+        <input type="radio" name="gender" value="Female" /><label>Female</label>
+        <input type="radio" name="gender" value="Others" /><label>Others</label
+        ></td>
+        </tr>
+        <tr>
+          <td> <label for="Scountry">Select Country</label></td>
+          <td><select name="country" id="country">
+          <option value="INDIA">INDIA</option>
+          <option value="USA">USA</option>
+          <option value="GERMANY">GERMANY</option></select
+        ></td>
+        </tr>
+        <tr>
+          <td><label for="upload">Upload File</label></td>
+          <td><input type="file" name="upload" id="upload" /><br>
+        
+        </tr>
+        
+      </table>
+      <input type="reset"></td>
+    </fieldset>
+       
+      <br />
+
+      <fieldset>
+        <legend>Course details</legend>
+
+        <label for="scourse">Select Course</label><br />
+        <select name="scourse" id="scourse">
+          <option value="Java Full Stack" >JAVA FULLSTACK</option>
+          <option value="Python Full Stack">Python Full Stack</option>
+          <option value="Python Full Stack">HTML&CSS</option></select
+        ><br />
+
+        <label for="Delivery Mode">Delivery Mode</label>
+
+        <input type="radio" name="checkbox" value="online" /><label
+          >ONLINE</label
+        >
+        <input type="radio" name="checkbox" value="offline" /><label
+          >OFFLINE</label
+        ><br />
+
+        <label for="INSTITUTE NAME">INSTITUTE MODE</label>
+        <input value="TAP ACADEMY" type="TAP ACADEMY" /><br />
+
+        <label for="Comments">Comments</label><br />
+        <textarea name="comments" id="comments" rows="4" cols="50"></textarea
+        ><br />
+
+        <input type="submit" /><br />
+        <a href="./selectfolder.html"></a>
+      </fieldset>
+      
+    </form>
+     
+  </body>
+</html>
